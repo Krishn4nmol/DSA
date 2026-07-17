@@ -1,4 +1,4 @@
-import java.util.*;
+import java.util.*; // TC O(n) SC O(n)
 public class recprintnamentimes {
     static void p(int n) {
         if (n == 0) return;
