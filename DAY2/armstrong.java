@@ -1,4 +1,4 @@
-import java.util.*; // TC O(d)=O(logn) SC O(1
+import java.util.*; // TC O(d)=O(logn) SC O(1)
 public class armstrong {
     static void p(int n) {
         int o = n;
