@@ -1,7 +1,7 @@
 import java.util.*; //TC O(n^2) SC O(1)
 public class pattern {
     static void p1 (int n) {
-        for (int i = 0; i < n; i++) {
+        for (int i = 0; i < n; i++) 
             for (int j = 0; j < n; j++) {
                if (i == 0 || i == n-1) {
                 System.out.print("*");
