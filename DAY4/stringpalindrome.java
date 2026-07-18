@@ -14,7 +14,7 @@ public class stringpalindrome {
             }
             return true;
         }
-        static boolean check1(String s) {
+        static boolean check1(String s) { // TC O(n) SC O(n)
             return check2(s, 0, s.length() - 1);
         }
         private static boolean check2(String s, int left, int right) {

@@ -7,28 +7,21 @@ public class countfreqinarray {
         for (int i = 0; i < n; i++) {
             arr[i] = sc.nextInt();
         }
-        int a[] = {0};
-        for (int i = 0; i < n; i++) {
-            a[arr[i]]++;
-        }
-        for (int i : a) {
-            System.out.println(i);
-        }
-        HashMap<Integer, Integer> map = new HashMap<>();
+        HashMap<Integer, Integer> map = new HashMap<>(); // TC O(n) SC O(n or k)
         for (int i = 0; i < n; i++) {
             map.put(arr[i], map.getOrDefault(arr[i], 0)+1);
         }
         for (Map.Entry<Integer, Integer> entry : map.entrySet()) {
             System.out.println(entry.getKey() + "->" + entry.getValue());
         }
-        LinkedHashMap<Integer, Integer> map1 = new LinkedHashMap<>();
+        LinkedHashMap<Integer, Integer> map1 = new LinkedHashMap<>(); // TC O(n) SC O(k or n)
         for (int i = 0; i < n; i++) {
             map1.put(arr[i], map1.getOrDefault(arr[i], 0)+1);
         }
         for (Map.Entry<Integer, Integer> entry : map1.entrySet()) {
             System.out.println(entry.getKey() + "->" + entry.getValue());
         }
-        TreeMap<Integer, Integer> map2 = new TreeMap<>();
+        TreeMap<Integer, Integer> map2 = new TreeMap<>(); // TC O(nlogn) SC O(n or k)
         for (int i = 0; i < n; i++) {
             map2.put(arr[i], map2.getOrDefault(arr[i], 0)+1);
         }

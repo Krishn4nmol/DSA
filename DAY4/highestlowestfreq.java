@@ -1,6 +1,6 @@
 import java.util.*;
 public class highestlowestfreq {
-    static void print(int arr[], int n) {
+    static void print(int arr[], int n) { // TC O(n) SC O(n)
         HashMap<Integer, Integer> map = new HashMap<>();
         for (int i = 0; i < n; i++) {
             map.put(arr[i], map.getOrDefault(arr[i], 0)+1);
