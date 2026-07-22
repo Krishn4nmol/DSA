@@ -10,7 +10,7 @@ public class gcd {
     }
     static int g1(int a, int b) {
         if (b == 0) return a;
-        else return g1(b, a%b);  //Euclidean Algo gcd(a,b)=gcd(a-b,b)=gcd(b,a%b) for lcm use a*b/gcd
+        else return g1(b, a%b);  //Euclidean Algo gcd(a,b)=gcd(b,a-b)=gcd(b,a%b) for lcm use a*b/gcd // SC O(log(min(a,b)))
     }
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
