@@ -55,7 +55,7 @@ public class mergesorted {
             brr[j] = temp;
         }
     }
-    static void print2(int arr[], int brr[]) { // TC O((n+m)log(n+m)) SC O(1)
+    static void print2(int arr[], int brr[]) { // TC O((n+m)log(n+m)) SC O(1) shell sort
         int n = arr.length;
         int m = brr.length;
         int len = n + m;
