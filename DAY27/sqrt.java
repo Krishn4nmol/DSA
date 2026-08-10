@@ -2,7 +2,7 @@ import java.util.*;
 public class sqrt {
     static int find(int n) { // TC O(root n) SC O(1)
         int ans = 0;
-        for (int i = 1; i <= n; i++) {
+        for (int i = 1; i <= n; i++) { // for (int i = 1; i * i <= n; i++) ans = i;
             if ((long) i * i <= n) {
                 ans = i;
             }
