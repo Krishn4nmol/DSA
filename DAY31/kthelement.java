@@ -9,7 +9,7 @@ public class kthelement {
         int low = Math.max(0, k - m);
         int high = Math.min(k , n);
         while (low <= high) {
-            int gap1 = low;
+            int gap1 = low + (high - low) / 2;
             int gap2 = k - gap1;
             int left1 = (gap1 == 0) ? Integer.MIN_VALUE : arr[gap1 - 1];
             int right1 = (gap1 == n) ? Integer.MAX_VALUE : arr[gap1];

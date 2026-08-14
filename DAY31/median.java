@@ -9,7 +9,7 @@ public class median {
         int low = 0;
         int high = n;
         while (low <= high) {
-            int gap1 = low;
+            int gap1 = low + (high - low) / 2;
             int gap2 = (n + m + 1) / 2 - gap1;
             int left1 = (gap1 == 0) ? Integer.MIN_VALUE : arr[gap1 - 1];
             int right1 = (gap1 == n) ? Integer.MAX_VALUE : arr[gap1];
