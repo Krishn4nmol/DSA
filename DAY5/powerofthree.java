@@ -8,7 +8,7 @@ public class powerofthree {
         return n == 1;
     }
     static boolean check1(int n) { // TC O(1) SC O(1)
-        return n > 0 && 1162261467 % n == 0;
+        return n > 0 && 1162261467 % n == 0; // highest int power of 3
     }
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
