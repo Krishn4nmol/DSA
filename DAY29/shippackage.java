@@ -29,7 +29,7 @@ public class shippackage {
         }
         return -1;
     }
-    static int ship1(int arr[], int d) { // TC O(n*log(sum(arr))) SC O(1)
+    static int ship1(int arr[], int d) { // TC O(n*log(sum(arr) - max(arr) + 1)) SC O(1)
         int low = 0;
         int high = 0;
         for (int x : arr) {
