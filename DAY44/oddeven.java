@@ -18,7 +18,7 @@ public class oddeven {
         temp.next = newNode;
         return head;
     }
-    static Node segregate(Node head) { // TC O(n) SC O(n)
+    static Node segregate(Node head) { // TC O(n) SC O(1)
         if (head == null || head.next == null)
             return head;
         Node odd = head;
