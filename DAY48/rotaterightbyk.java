@@ -8,7 +8,7 @@ public class rotaterightbyk {
             this.next = null;
         }
     }
-    static Node rotate(Node head, int k) { // TC O(n) SC O(1)
+    static Node rotate(Node head, int k) { // TC O(n) SC O(1
         if (head == null || head.next == null || k == 0) {
             return head;
         }
