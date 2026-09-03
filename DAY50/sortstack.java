@@ -9,7 +9,7 @@ public class sortstack {
         insert(st, x);
     }
     static void insert(Stack<Integer> st, int x) {
-        if (st.isEmpty() || st.peek() <= x) {
+        if (st.isEmpty() || st.peek() <= x) { // for decreasing order st.peek() >= x
             st.push(x);
             return;
         }
