@@ -16,6 +16,6 @@ public class subsumk { // TC O(2^n) SC O(n)
         for (int i = 0; i < n; i++)
             arr[i] = sc.nextInt();
         int k = sc.nextInt();
-        System.out.println(generate(arr, 0, 0, k))
+        System.out.println(generate(arr, 0, 0, k));
     }
 }
