@@ -29,6 +29,6 @@ public class palindromepartition { // TC O(n^2 * 2^n) SC O(n)
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         String s = sc.nextLine();
-        System.out.println(partition(s)
+        System.out.println(partition(s));
     }
 }
