@@ -27,7 +27,7 @@ public class wordsearch { // backtracking + dfs TC O(nm * 4^L) SC O(L) L = word 
         return found;
     }
     public static void main(String[] args) {
-        Scanner sc = new Scanner(System.in)
+        Scanner sc = new Scanner(System.in);
         int n = sc.nextInt();
         int m = sc.nextInt();
         char arr[][] = new char[n][m];
