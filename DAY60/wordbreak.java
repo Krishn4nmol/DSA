@@ -1,5 +1,5 @@
 import java.util.*;
-public class wordbreak { // TC O(2^n) SC O(n)
+public class wordbreak { // TC O(2^n) SC O(n
     static boolean find(String s, List<String> word) {
         HashSet<String> set = new HashSet<>(word);
         return help(0, s, set);
