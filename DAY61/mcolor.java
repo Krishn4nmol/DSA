@@ -3,7 +3,7 @@ public class mcolor { // TC O(m^V * V) SC O(V)
     static boolean isSafe(int vertex, int graph[][], int n, int color[], int c) {
         for (int i = 0; i < n; i++) {
             if (graph[vertex][i] == 1 && color[i] == c) {
-                return false
+                return fals
             }
         }
         return true;
