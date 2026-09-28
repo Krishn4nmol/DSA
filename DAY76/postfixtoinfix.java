@@ -28,6 +28,6 @@ public class postfixtoinfix { // TC O(n) SC O(n)
         Scanner sc = new Scanner(System.in);
         String exp = sc.next();
         System.out.println("Postfix = " + exp);
-        System.out.println("Infix = " + convert(exp));
+        System.out.println("Infix = " + convert(exp
     }
 }
