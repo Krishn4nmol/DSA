@@ -19,7 +19,7 @@ public class postfixtoinfix { // TC O(n) SC O(n)
                 String operator2 = stack.pop();
                 String operator1 = stack.pop();
                 String result = '(' + operator1 + ch + operator2 + ')';
-                stack.push(result);
+                stack.push(result
             }
         }
         return stack.pop();
