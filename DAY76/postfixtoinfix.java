@@ -22,7 +22,7 @@ public class postfixtoinfix { // TC O(n) SC O(n)
                 stack.push(result);
             }
         }
-        return stack.pop()
+        return stack.pop();
     }
     public static void main(String args[]) {
         Scanner sc = new Scanner(System.in);
