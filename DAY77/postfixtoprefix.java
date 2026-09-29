@@ -16,7 +16,7 @@ public class postfixtoprefix { // TC O(n) SC O(n)
             if (Character.isLetterOrDigit(ch)) {
                 stack.push(String.valueOf(ch));
             }
-            else if (isOperator(
+            else if (isOperator(ch)) {
                 String operand2 = stack.pop();
                 String operand1 = stack.pop();
                 String result = ch + operand1 + operand2;
