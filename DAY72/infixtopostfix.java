@@ -11,8 +11,7 @@ public class infixtopostfix { // TC O(n) SC O(n)
             case '+':
             case '-':
                 return 1;
-            default:
-                return -1;
+            
         }
     }
     static boolean isRightAssociative(char ch) {
