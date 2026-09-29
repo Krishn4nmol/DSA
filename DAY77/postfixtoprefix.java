@@ -10,7 +10,6 @@ public class postfixtoprefix { // TC O(n) SC O(n)
     }
     static String postfixToPrefix(String exp) {
         ArrayDeque<String> stack = new ArrayDeque<>();
-        // Scan from left to right
         for (int i = 0; i < exp.length(); i++) {
             char ch = exp.charAt(i);
             if (Character.isLetterOrDigit(ch)) {
