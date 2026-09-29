@@ -10,7 +10,7 @@ public class mcolor { // TC O(m^V * V) SC O(V)
     }
     static boolean solve(int vertex, int graph[][], int n, int color[], int m) {
         if (vertex == n) {
-            
+            return true;
         }
         for (int c = 1; c <= m; c++) {
             if (isSafe(vertex, graph, n, color, c)) {
