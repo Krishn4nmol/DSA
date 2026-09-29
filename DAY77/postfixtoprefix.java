@@ -29,6 +29,6 @@ public class postfixtoprefix { // TC O(n) SC O(n)
         String exp = sc.next();
         System.out.println("Postfix: " + exp);
         System.out.println("Prefix:  " + postfixToPrefix(exp));
-        sc.
+        sc.close();
     }
 }
