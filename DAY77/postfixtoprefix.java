@@ -1,6 +1,13 @@
 import java.util.*;
 public class postfixtoprefix { // TC O(n) SC O(n)
-    
+    static boolean isOperator(char ch) {
+        return ch == '+' ||
+               ch == '-' ||
+               ch == '*' ||
+               ch == '/' ||
+               ch == '%' ||
+               ch == '^';
+    }
     static String postfixToPrefix(String exp) {
         ArrayDeque<String> stack = new ArrayDeque<>();
         // Scan from left to right
