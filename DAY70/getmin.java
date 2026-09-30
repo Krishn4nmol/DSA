@@ -22,7 +22,7 @@ class stack { // SC O(n)
         return st1.peek();
     }
     int getmin() { // TC O(1)
-        return st2.peek();
+        return 
     }
 }
 public class getmin {
