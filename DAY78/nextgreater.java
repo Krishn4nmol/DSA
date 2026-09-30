@@ -17,7 +17,7 @@ public class nextgreater {
         }
         return ans;
     }
-    public static void main
+    public static void main(String)
         Scanner sc = new Scanner(System.in);
         int n = sc.nextInt();
         int arr[] = new int[n];
