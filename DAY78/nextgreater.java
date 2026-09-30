@@ -15,7 +15,7 @@ public class nextgreater {
             }
             st.push(arr[i]);
         }
-        
+        return 
     }
     public static void main(String args[]) {
         Scanner sc = new Scanner(System.in);
