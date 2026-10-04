@@ -9,7 +9,7 @@ public class singlenumbergoldman {
                     count++;
                 }
             }
-            if (count % 3 != 0) {
+            if (count % 3 != 0) { // for k times repeat use (count % k != 0)
                 ans |= (1 << bit);
             }
         }
