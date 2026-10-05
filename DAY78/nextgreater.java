@@ -5,7 +5,7 @@ public class nextgreater {
         int ans[] = new int[n];
         Stack<Integer> st = new Stack<>();
         for (int i = n - 1; i >= 0; i--) {
-            while (!st.isEmpty() && st.peek() <= arr[i]) {
+            while (!st.isEmpty() && st.peek() <= arr[i]) { // for NSE st.peek() >= arr[i]
                 st.pop();
             }
             if (st.isEmpty()) {
