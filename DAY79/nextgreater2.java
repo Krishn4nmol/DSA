@@ -7,7 +7,7 @@ public class nextgreater2 {
         Stack<Integer> st = new Stack<>();
         for (int i = 2 * n - 1; i >= 0; i--) {
             int curr = arr[i % n];
-            while (!st.isEmpty() && st.peek() <= curr)
+            while (!st.isEmpty() && st.peek() <= curr) // for NSE st.peek() >= curr
                 st.pop();
             if (i < n && !st.isEmpty())
                 ans[i] = st.peek();
