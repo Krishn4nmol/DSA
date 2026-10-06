@@ -9,7 +9,7 @@ public class celebrity {
                 a++;
             }
             else {
-                b--;
+                
             }
         }
         int candidate = a;
