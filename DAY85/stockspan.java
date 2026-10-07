@@ -15,7 +15,7 @@ public class stockspan {
             }
             st.push(i);
         }
-        return span;
+        
     }
     public static void main(String args[]) {
         Scanner sc = new Scanner(System.in);
