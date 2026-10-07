@@ -1,5 +1,5 @@
 import java.util.*;
-public class  {
+public class stockspan {
     static int[] stockSpan(int arr[]) { // TC O(n) SC O(n)
         int n = arr.length;
         int span[] = new int[n];
