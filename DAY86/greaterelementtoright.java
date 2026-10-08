@@ -6,7 +6,7 @@ public class greaterelementtoright {
         int ans[] = new int[m];
         for (int q = 0; q < m; q++) {
             int ind = index[q];
-            ArrayDeque<Integer> st = new ArrayDeque<>
+            ArrayDeque<Integer> st = new ArrayDeque
             for (int i = n - 1; i > ind; i--) {
                 if (arr[i] > arr[ind]) {
                     st.push(arr[i]);
