@@ -1,6 +1,6 @@
 import java.util.*;
 public class greaterelementtoright {
-    static int[] find(int arr[], int index[]) { // TC O(qn) SC O(n)
+    static int[] find(int arr[], int index[]) { // TC O(mn) SC O(n)
         int n = arr.length;
         int m = index.length;
         int ans[] = new int[m];
