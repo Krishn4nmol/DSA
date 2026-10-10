@@ -1,6 +1,6 @@
 import java.util.*;
 public class trappingrainwater {
-    static int trap(int height[]) {
+    static int trap(int height[]) { // TC O(n) SC O(1)
         int left = 0;
         int right = height.length - 1;
         int leftMax = 0;
