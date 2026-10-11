@@ -1,4 +1,3 @@
-
 import java.util.*;
 public class largestrect { // TC O(n) SC O(n)
     static int largestRectangleArea(int heights[]) {
