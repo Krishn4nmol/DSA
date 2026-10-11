@@ -1,6 +1,6 @@
 
 import java.util.*;
-public class largestrect {
+public class largestrect { // TC O(n) SC O(n)
     static int largestRectangleArea(int heights[]) {
         Stack<Integer> st = new Stack<>();
         int maxArea = 0;
