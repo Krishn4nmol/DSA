@@ -2,7 +2,7 @@
 import java.util.*;
 public class largestrect { // TC O(n) SC O(n)
     static int largestRectangleArea(int heights[]) {
-        ArrayDeque<Integer> st = new Stack<>();
+        ArrayDeque<Integer> st = new ArrayDeque<>();
         int maxArea = 0;
         int n = heights.length;
         for (int i = 0; i <= n; i++) {
