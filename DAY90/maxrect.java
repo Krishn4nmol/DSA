@@ -1,5 +1,5 @@
 import java.util.*;
-public class maxrect {
+public class maxrect { // TC O(nm) SC O(m)
     static int maximalRectangle(int matrix[][]) {
         if (matrix.length == 0 || matrix[0].length == 0) {
             return 0;
