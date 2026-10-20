@@ -1,6 +1,6 @@
 import java.util.*;
 public class SJF {
-    static long print(int bt[]) { // TC O(nlogn) SC O(1)
+    static double print(int bt[]) { // TC O(nlogn) SC O(1)
         int n = bt.length;
         Arrays.sort(bt);
         long total = 0;
@@ -9,7 +9,7 @@ public class SJF {
             total += wt;
             wt += bt[i];
         }
-        return total / n;
+        return (double) total / n;
     }
     public static void main(String args[]) {
         Scanner sc = new Scanner(System.in);
