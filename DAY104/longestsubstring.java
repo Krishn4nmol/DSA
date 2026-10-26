@@ -1,6 +1,6 @@
 import java.util.*;
 public class longestsubstring {
-    static int find(String s) {
+    static int find(String s) { // TC O(n) SC O(n)
         HashSet<Character> set = new HashSet<>();
         int left = 0;
         int max = 0;
