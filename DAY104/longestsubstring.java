@@ -2,7 +2,7 @@ import java.util.*;
 public class longestsubstring {
     static int find(String s) { // TC O(n) SC O(n)
         HashSet<Character> set = new HashSet<>();
-        int 
+        int left = 0;
         int max = 0;
         for (int right = 0; right < s.length(); right++) {
             while (set.contains(s.charAt(right))) {
