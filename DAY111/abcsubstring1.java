@@ -1,6 +1,6 @@
 import java.util.*;
 public class abcsubstring1 { // TC O(n) SC O(1)
-    public static int numberOfSubstrings(String s) {
+    static int numberOfSubstrings(String s) {
         int n = s.length();
         int count[] = new int[3];
         int left = 0;
