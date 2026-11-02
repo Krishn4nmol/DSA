@@ -1,5 +1,5 @@
 import java.util.*;
-public class abcsubstring2 {
+public class abcsubstring2 { // TC O(n) SC O(1)
     public static int numberOfSubstrings(String s) {
         int[] last = {-1, -1, -1};
         int ans = 0;
