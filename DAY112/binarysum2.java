@@ -1,6 +1,6 @@
 import java.util.*;
-public class binarysum2 {
-    public static int numSubarraysWithSum(int nums[], int goal) {
+public class binarysum2 { // TC O(n) SC O(n)
+    static int numSubarraysWithSum(int nums[], int goal) {
         HashMap<Integer, Integer> map = new HashMap<>();
         map.put(0, 1);
         int sum = 0;
