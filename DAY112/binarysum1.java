@@ -1,6 +1,6 @@
 import java.util.*;
 public class binarysum1 { // TC O(n) SC O(1)
-    public static int atMost(int nums[], int goal) {
+    static int atMost(int nums[], int goal) {
         if (goal < 0) return 0;
         int left = 0;
         int sum = 0;
