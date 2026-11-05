@@ -12,7 +12,12 @@ public class jobsequencing { // TC O(nlogn + nD) SC O(D)
         int totalProfit = 0;
         for (int i = 0; i < n; i++) {
             for (int j = Jobs[i][1]; j > 0; j--) {
-                
+                if (slot[j] == -1) {
+                    slot[j] = Jobs[i][0];
+                    count++;
+                    totalProfit += Jobs[i][2];
+                    break;
+                }
             }
         }
         return new int[]{count, totalProfit};
