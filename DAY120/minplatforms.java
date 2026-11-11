@@ -1,5 +1,5 @@
 import java.util.*;
-public class minplatforms { // TC O(nlong) SC O(1)
+public class minplatforms { // TC O(nlogn) SC O(1)
     static int findPlatform(int arr[], int dep[]) {
         Arrays.sort(arr);
         Arrays.sort(dep);
