@@ -6,7 +6,7 @@ class TreeNode {
         this.val = val;
     }
 }
-public class inordertraversal {
+public class inordertraversal { // TC O(n) SC O(n)
     static List<Integer> inorder(TreeNode root) {
         List<Integer> ans = new ArrayList<>();
         solve(root, ans);
