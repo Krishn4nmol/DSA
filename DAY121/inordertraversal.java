@@ -23,6 +23,7 @@ public class inordertraversal { // TC O(n) SC O(n)
         String arr[] = sc.nextLine().trim().split("\\s+");
         TreeNode root = buildTree(arr);
         System.out.println(inorder(root));
+        sc.close();
     }
     static TreeNode buildTree(String[] arr) {
         if (arr.length == 0 || arr[0].equals("-1")) {
