@@ -6,7 +6,7 @@ class TreeNode {
         this.val = val;
     }
 }
-public class depthoftree1 { // TC O(n) SC 
+public class depthoftree1 { // TC O(n) SC O(h)
     static int maxDepth(TreeNode root) {
         if (root == null) return 0;
         int left = maxDepth(root.left);
