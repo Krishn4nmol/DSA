@@ -7,7 +7,7 @@ class TreeNode {
         this.val = val;
     }
 }
-public class depthoftree2 { // TC O(n) SC O(h)
+public class depthoftree2 { // TC O(n) SC O(n)
     static int maxDepth(TreeNode root) {
         if (root == null) return 0;
         Queue<TreeNode> q = new LinkedList<>();
