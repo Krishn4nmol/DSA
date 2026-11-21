@@ -6,7 +6,7 @@ class TreeNode {
         this.val = val;
     }
 }
-public class identicaltrees2 { // TC O(n) SC O(n
+public class identicaltrees2 { // TC O(n) SC O(n)
     static boolean isSameTree(TreeNode p, TreeNode q) {
         Queue<TreeNode> q1 = new LinkedList<>();
         Queue<TreeNode> q2 = new LinkedList<>();
