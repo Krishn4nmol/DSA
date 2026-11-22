@@ -48,5 +48,6 @@ public class balancedtree2 { // TC O(n^2) SC O(h)
         String arr[] = sc.nextLine().trim().split("\\s+");
         TreeNode root = buildTree(arr);
         System.out.println(isBalanced(root) ? "Yes" : "No");
+        sc.close();
     }
 }
