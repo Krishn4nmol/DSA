@@ -6,7 +6,7 @@ class TreeNode {
         this.val = val;
     }
 }
-public class balancedtree2 {
+public class balancedtree2 { // TC O(n^2) SC O(h)
     static int height(TreeNode root) {
         if (root == null) return 0;
         return 1 + Math.max(height(root.left),
