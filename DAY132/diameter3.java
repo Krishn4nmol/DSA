@@ -6,7 +6,7 @@ class TreeNode {
         this.val = val;
     }
 }
-public class diameter3 { // TC O(n) SC O(N)
+public class diameter3 { // TC O(n) SC O(n)
     static int diameterOfBinaryTree(TreeNode root) {
         if (root == null) return 0;
         Stack<TreeNode> st = new Stack<>();
