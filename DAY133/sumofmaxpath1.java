@@ -48,5 +48,6 @@ public class sumofmaxpath1 { // TC O(n) SC O(h)
         TreeNode root = buildTree(arr);
         sumofmaxpath1 obj = new sumofmaxpath1();
         System.out.println(obj.maxPathSum(root));
+        sc.close();
     }
 }
