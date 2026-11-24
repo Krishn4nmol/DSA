@@ -6,7 +6,7 @@ class TreeNode {
         this.val = val;
     }
 }
-public class sumofmaxpath1 {
+public class sumofmaxpath1 { // TC O(n) SC O(h)
     int maxSum = Integer.MIN_VALUE;
     int maxGain(TreeNode root) {
         if (root == null) return 0;
