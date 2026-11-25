@@ -55,5 +55,6 @@ public class symmetrictree2 { // TC O(n) SC O(n)
         String arr[] = sc.nextLine().trim().split("\\s+");
         TreeNode root = buildTree(arr);
         System.out.println(isSymmetric(root));
+        sc.close();
     }
 }
