@@ -60,5 +60,6 @@ public class zigzagtraversal2 { // TC O(n) SC O(n)
         TreeNode root = buildTree(arr);
         List<List<Integer>> ans = zigzagLevelOrder(root);
         System.out.println(ans);
+        sc.close();
     }
 }
